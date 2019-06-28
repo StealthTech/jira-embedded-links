@@ -1,0 +1,88 @@
+<script async src="https://kit.fontawesome.com/9c4b5e8356.js"></script>
+<style>
+    .block-header {
+        font-weight: bold;
+        padding: 10px;
+        color: rgb(0, 95, 249);
+    }
+    .block-header i {
+        margin-right: 3px;
+    }
+    .block-list {
+        padding: 10px;
+    }
+    .block-link {
+        display: flex;
+
+        cursor: pointer;
+        text-decoration: none;
+        transition: .2s;
+    }
+    .block-link:not(:last-child) {
+        margin-bottom: 7px;
+    }
+    .block-link:hover, .block-link:active {
+        text-decoration: none;
+        opacity: .8;
+    }
+    .block-link__category {
+        display: flex;
+        align-items: center;
+
+        padding: 5px 10px;
+        white-space: nowrap;
+
+        color: white;
+        background: rgb(0, 95, 249);
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    .block-link__icon {
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+
+        color: white;
+        background: rgb(43, 124, 255);
+    }
+    .block-link__title {
+        flex-grow: 1;
+        padding: 5px 10px;
+
+        color: rgb(0, 48, 124);
+        background: rgb(241, 246, 255);;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+</style>
+
+<div class="block">
+    <div class="block-header"><i class="fas fa-star"></i> Избранные ссылки</div>
+    <div class="block-list">
+        <a class="block-link" target="_blank" href="">
+            <div class="block-link__category">Категория</div>
+            <div class="block-link__icon"><i class="fas fa-info"></i></div>
+            <div class="block-link__title">Название</div>
+        </a>
+        <a class="block-link" target="_blank" href="">
+            <div class="block-link__category">Категория</div>
+            <div class="block-link__icon"><i class="fas fa-info"></i></div>
+            <div class="block-link__title">Название</div>
+        </a>
+    </div>
+</div>
+<div class="block">
+    <div class="block-header"><i class="fas fa-tasks"></i> Настройки и тестирование</div>
+    <div class="block-list">
+        <a class="block-link" target="_blank" href="">
+            <div class="block-link__category">Категория</div>
+            <div class="block-link__icon"><i class="fas fa-info"></i></div>
+            <div class="block-link__title">Название</div>
+        </a>
+        <a class="block-link" target="_blank" href="">
+            <div class="block-link__category">Категория</div>
+            <div class="block-link__icon"><i class="fas fa-info"></i></div>
+            <div class="block-link__title">Название</div>
+        </a>
+    </div>
+</div>
